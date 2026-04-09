@@ -1,0 +1,1214 @@
+[
+  {
+    "id": "q1",
+    "query": "VF6 bản Base giá thuê pin là bao nhiêu?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Cung cấp chính xác giá thuê bộ pin cho dòng VF6 theo chính sách hiện hành.",
+    "latency_seconds": 48.834691286087036,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Giá thuê pin cho mẫu xe VinFast VF6 bản Base là **1.800.000 VNĐ/tháng**. \n\nDưới đây là thông tin chi tiết về giá xe:\n\n| Mẫu xe         | Giá có pin (VNĐ) | Giá không có pin (VNĐ) |\n|----------------|------------------|------------------------|\n| VinFast VF6    | 765.000.000      | 675.000.000            |\n\nLưu ý rằng chính sách giá thuê pin có thể thay đổi, vì vậy bạn nên kiểm tra thông tin tại [vinfast.vn](https://vinfast.vn) để đảm bảo quyền lợi của mình. Nếu cần hỗ trợ thêm, bạn có thể gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q2",
+    "query": "Tôi cọc số lượng 10 chiếc VF5 thì được tặng miễn phí sạc 10 năm đúng không?",
+    "expected_intent": "search_cars",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận. Không có chính sách gộp hoặc miễn phí sạc 10 năm như mô tả.",
+    "latency_seconds": 5.644398927688599,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Tôi chưa có đủ thông tin về chính sách tặng sạc miễn phí cho việc đặt cọc 10 chiếc VF5. Theo chính sách hiện tại, VF5 không nằm trong danh sách xe hỗ trợ giải pháp thuê pin (GSM) mà chỉ có các mẫu xe như VF6, VF7, VF8 Plus và VF9 Plus.\n\nĐể có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q3",
+    "query": "VF8 Plus chạy đường trường có ồn không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "Lấy review cộng đồng thực tế về độ cách âm, tiếng gió của VF8 Plus.",
+    "latency_seconds": 10.46481704711914,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Dưới đây là một số đánh giá về độ ồn của VinFast VF8 Plus khi chạy đường trường:\n\n### Đánh giá từ người dùng\n| Nguồn      | Nội dung đánh giá                                                                                     | Ngày         |\n|------------|-------------------------------------------------------------------------------------------------------|--------------|\n| Hệ thống   | Gia đình mình trải nghiệm VinFast VF 8 thấy đi mượt, tăng tốc dính ghế. Tuy nhiên màn hình giải trí thỉnh thoảng phản hồi hơi chậm, mong sớm có bản cập nhật OTA. | 13/02/2026   |\n| Hệ thống   | Lái VinFast VF 8 Lux thì êm ru và sướng, hệ thống ADAS xịn xò. Đáng tiếc trạm sạc gần khách sạn mình lưu trú lại kín chỗ, phải đợi sạc hơi lâu. | 02/02/2026   |\n| Otofun     | Xe đẹp nhưng pin thực tế thấp hơn công bố nhiều. Cần cải thiện mạng sạc. <br> **Ưu điểm:** Thiết kế đẹp, Ghế mát-xa tốt <br> **Nhược điểm:** Pin thực tế ~310km, Mạng sạc DC nhanh ít ở tỉnh thành nhỏ. | 10/02/2024   |\n\n### Kết luận\nTừ các đánh giá trên, có thể thấy rằng người dùng cảm nhận VF8 Plus khá êm ái khi lái, không có phản hồi cụ thể về độ ồn. Tuy nhiên, một số đánh giá chỉ ra rằng trải nghiệm lái xe là \"êm ru\", cho thấy xe có khả năng cách âm tốt.\n\nĐể có thêm thông tin chi tiết và chính xác, bạn có thể tham khảo thêm tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q4",
+    "query": "Tôi mua VF8 nhưng muốn lấy gói thuê pin của VF6 vì tôi ít đi, có được không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận. Gói thuê pin chỉ áp dụng đúng cho dòng xe tương ứng, không được lắp lẫn lộn.",
+    "latency_seconds": 6.188963890075684,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Bạn không thể lấy gói thuê pin của VF6 cho xe VF8. Tuy nhiên, VF8 hỗ trợ gói thuê pin riêng với các thông tin như sau:\n\n### Chính sách thuê pin cho VF8\n| Thông tin | Chi tiết |\n|-----------|----------|\n| Giá thuê pin hàng tháng | 3.000.000 VNĐ |\n| Giá xe có pin | 1.344.000.000 VNĐ |\n| Giá xe không có pin | 1.170.000.000 VNĐ |\n| Bảo hành pin | 10 năm hoặc 200.000 km |\n| Dịch vụ bao gồm | Thay thế pin miễn phí nếu dung lượng xuống dưới 70% |\n\n### Lưu ý\n- Chính sách giá pin có thể điều chỉnh theo thông báo 30 ngày trước. Bạn nên kiểm tra trên website chính thức trước khi ký hợp đồng.\n\nĐể có thêm thông tin chi tiết hoặc hỗ trợ, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q5",
+    "query": "Bảo dưỡng 10.000km cho VF9 thì cần kiểm tra những gì?",
+    "expected_intent": "book_maintenance",
+    "is_trick_question": false,
+    "ground_truth": "Liệt kê chính xác các hạng mục bảo dưỡng định kỳ ở mốc 10.000km cho VF9.",
+    "latency_seconds": 6.367358922958374,
+    "tools_used": [
+      "book_maintenance"
+    ],
+    "final_response": "Bảo dưỡng định kỳ cho xe VinFast VF9 sau 10.000 km (hoặc 6 tháng) bao gồm các hạng mục kiểm tra sau:\n\n| Hạng mục kiểm tra                                   |\n|-----------------------------------------------------|\n| Kiểm tra lốp, phanh                                 |\n| Kiểm tra hệ thống treo khí nén                      |\n| Kiểm tra cơ cấu ghế thương gia                      |\n| Kiểm tra chức năng massage/sưởi/thông gió          |\n| Kiểm tra điều hòa 3 vùng                             |\n| Cập nhật OTA                                        |\n| Vệ sinh nội thất cao cấp                            |\n| Test drive                                          |\n\n- **Thời gian thực hiện:** Khoảng 3.5 giờ\n- **Chi phí sau bảo hành:** 2.500.000 VNĐ\n- **Ghi chú:** Xe trong thời gian bảo hành 5 năm được bảo dưỡng định kỳ miễn phí theo lịch chính thức.\n\n### Kênh đặt lịch bảo dưỡng:\n- **Điện thoại:** 1900 23 23 89\n- **Ứng dụng:** VinFast App (iOS/Android)\n- **Website:** [Đặt lịch dịch vụ](https://vinfast.vn/dat-lich-dich-vu)\n\nNếu bạn cần thêm thông tin hoặc hỗ trợ, hãy liên hệ với chúng tôi qua hotline hoặc truy cập website.",
+    "error": null
+  },
+  {
+    "id": "q6",
+    "query": "Hệ thống màn hình cảm ứng của VF8 hay bị đơ đúng không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": true,
+    "ground_truth": "Phải kết hợp review mới nhất; nếu lỗi này đã được khắc phục ở bản cập nhật phần mềm mới thì phải đính chính.",
+    "latency_seconds": 7.321868419647217,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Dựa trên các đánh giá từ cộng đồng, có một số phản hồi về hệ thống màn hình cảm ứng của VinFast VF8. Cụ thể:\n\n### Ưu điểm:\n- Xe vận hành mượt mà, tăng tốc tốt.\n\n### Nhược điểm:\n- Hệ thống màn hình giải trí thỉnh thoảng phản hồi hơi chậm. Một số người dùng mong muốn có bản cập nhật OTA để cải thiện tình trạng này.\n\n**Nguồn:** Hệ thống đánh giá từ người dùng (Otofun/Community) - Ngày gần nhất: 13/02/2026.\n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi khác, hãy cho tôi biết! Bạn cũng có thể xác minh thông tin tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q7",
+    "query": "So sánh thông số của VF6 và VF7 bản Base",
+    "expected_intent": "compare_models",
+    "is_trick_question": false,
+    "ground_truth": "Đưa ra bảng so sánh rõ ràng các thông số chính giữa hai dòng này.",
+    "latency_seconds": 11.245681762695312,
+    "tools_used": [
+      "compare_models",
+      "search_cars",
+      "search_cars"
+    ],
+    "final_response": "Dưới đây là bảng so sánh thông số kỹ thuật của VinFast VF6 và VF7 bản Base:\n\n| Thông số                   | VinFast VF6 Base                     | VinFast VF7 Base                     |\n|----------------------------|--------------------------------------|--------------------------------------|\n| **Phân khúc**              | B-SUV                                | C-SUV                                |\n| **Năm sản xuất**           | 2024                                 | 2024                                 |\n| **Giá (Có pin)**           | 765.000.000 ₫                        | 999.000.000 ₫                        |\n| **Giá (Không có pin)**     | 675.000.000 ₫                        | 850.000.000 ₫                        |\n| **Thuê pin hàng tháng**    | 1.800.000 ₫                          | 2.900.000 ₫                          |\n| **Dung lượng pin (kWh)**   | 59.6                                 | 59.6                                 |\n| **Quãng đường WLTP (km)**  | 399                                  | 375                                  |\n| **Công suất (kW)**         | 130                                  | 130                                  |\n| **Tăng tốc 0-100 km/h**    | 8.9 giây                            | 10.0 giây                           |\n| **Số chỗ ngồi**            | 5                                    | 5                                    |\n| **Màu sắc**                | Trắng, Bạc, Đỏ, Xanh dương          | Trắng, Xám, Đen, Đỏ                 |\n| **Bảo hành**               | 7 năm / 160.000 km                  | 10 năm / 200.000 km                 |\n| **Bảo hành pin**           | 8 năm                                | 10 năm                               |\n| **Tính năng nổi bật**      | Màn hình 12.9 inch, Hỗ trợ giữ làn, Phanh tay điện tử | Thiết kế khí động học, Trợ lý ảo ViVi, Tay nắm cửa ẩn |\n\n### Ghi chú:\n- VF6 là mẫu SUV hạng B, trong khi VF7 là mẫu SUV hạng C, do đó VF7 có giá cao hơn và bảo hành lâu hơn.\n- Cả hai mẫu xe đều có dung lượng pin giống nhau nhưng khác nhau về quãng đường WLTP và một số tính năng.\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q8",
+    "query": "Pin của VF3 đi được tối đa bao xa sau một lần sạc đầy?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Cung cấp khoảng cách hoạt động WLTP của VF3.",
+    "latency_seconds": 3.695448875427246,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "VinFast VF3 có thể đi được tối đa **210 km** sau một lần sạc đầy. \n\nNếu bạn cần thêm thông tin chi tiết hoặc hỗ trợ khác, hãy truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q9",
+    "query": "Phí sạc quá giờ ở trạm VinFast là bao nhiêu tiền 1 phút?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Đưa ra con số chính xác về chính sách phí đọng bãi (charging station penalty) của VinFast.",
+    "latency_seconds": 3.860161781311035,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "Tôi chưa có đủ dữ liệu về phí sạc quá giờ ở trạm VinFast. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q10",
+    "query": "Đang có chương trình cho trả góp VF5 không cần trả trước lãi 0% trọn đời hả em?",
+    "expected_intent": "search_cars",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận. AI không được tự ý xác nhận các chính sách ảo. Yêu cầu chuyển/để lại số điện thoại cho Sale.",
+    "latency_seconds": 4.2544145584106445,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Tôi chưa có đủ dữ liệu về chương trình trả góp cho mẫu xe VF5, bao gồm thông tin về lãi suất và yêu cầu trả trước. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q11",
+    "query": "VF7 bản Plus có khác gì bản Base về pin không?",
+    "expected_intent": "compare_models",
+    "is_trick_question": false,
+    "ground_truth": "So sánh chính xác dung lượng pin và hiệu năng giữa hai phiên bản.",
+    "latency_seconds": 12.3699471950531,
+    "tools_used": [
+      "get_battery_policy",
+      "get_battery_policy"
+    ],
+    "final_response": "Cả hai phiên bản VF7 Plus và VF7 Base đều có chính sách pin tương tự nhau, cụ thể như sau:\n\n### Chính sách pin VF7 Plus và VF7 Base\n| Thông tin | VF7 Plus | VF7 Base |\n|-----------|----------|----------|\n| **Giải pháp Pin** | Giải pháp Pin GSM (Giải Pháp Sở Hữu Mở) | Giải pháp Pin GSM (Giải Pháp Sở Hữu Mở) |\n| **Thời gian hợp đồng tối thiểu** | 12 tháng | 12 tháng |\n| **Dịch vụ bao gồm** | - Thay thế pin miễn phí nếu xuống dưới 70% dung lượng<br>- Bảo hành pin 10 năm/200.000 km<br>- Hỗ trợ nâng cấp pin công nghệ mới | - Thay thế pin miễn phí nếu xuống dưới 70% dung lượng<br>- Bảo hành pin 10 năm/200.000 km<br>- Hỗ trợ nâng cấp pin công nghệ mới |\n| **Chính sách giá pin** | Có thể điều chỉnh theo thông báo 30 ngày trước | Có thể điều chỉnh theo thông báo 30 ngày trước |\n| **Bảo hành xe** | 5 năm hoặc 150.000 km (tuỳ điều kiện nào đến trước) | 5 năm hoặc 150.000 km (tuỳ điều kiện nào đến trước) |\n| **Hỗ trợ 24/7** | Trong 5 năm đầu tiên | Trong 5 năm đầu tiên |\n\n### Giá bán\n- **VF7 Plus**: \n  - Giá có pin: 1.233.000.000 VNĐ\n  - Giá không có pin: 1.034.000.000 VNĐ\n  - Phí thuê pin hàng tháng: 2.900.000 VNĐ\n\n- **VF7 Base**: \n  - Giá có pin: Tương tự VF7 Plus\n  - Giá không có pin: Tương tự VF7 Plus\n  - Phí thuê pin hàng tháng: Tương tự VF7 Plus\n\n### Kết luận\nNhư vậy, về chính sách pin, VF7 Plus và VF7 Base không có sự khác biệt. Nếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi khác, hãy xác minh tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q12",
+    "query": "Xe VinFast có bị lỗi phần mềm thường xuyên không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": true,
+    "ground_truth": "Trả lời dựa trên thông tin cập nhật, không khẳng định sai lệch.",
+    "latency_seconds": 6.7750866413116455,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Dựa trên các đánh giá từ người dùng về xe VinFast VF 8, có một số thông tin liên quan đến lỗi phần mềm:\n\n### Ưu điểm:\n- **Lái xe êm ái**: Nhiều người dùng cho biết xe chạy mượt mà và tăng tốc tốt.\n- **Nội thất sang trọng**: Cabin rộng rãi và ghế ngồi thoải mái.\n\n### Nhược điểm:\n- **Phản hồi màn hình chậm**: Một số người dùng đã phản ánh rằng màn hình giải trí thỉnh thoảng phản hồi hơi chậm và mong muốn có bản cập nhật OTA để cải thiện.\n- **Ứng dụng VinFast đôi khi chậm**: Một số đánh giá cũng chỉ ra rằng ứng dụng hỗ trợ của VinFast có thể hoạt động không ổn định.\n\n### Tỷ lệ hài lòng:\n- Khoảng 20% người dùng có phản hồi tích cực về xe.\n\nNguồn: Otofun và Hệ thống (các đánh giá gần đây).\n\nĐể có thêm thông tin chi tiết và chính xác hơn, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q13",
+    "query": "VF6 đi trong thành phố thì tiêu hao bao nhiêu kWh/100km?",
+    "expected_intent": "get_range_info",
+    "is_trick_question": false,
+    "ground_truth": "Cung cấp mức tiêu hao năng lượng thực tế.",
+    "latency_seconds": 4.546463966369629,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "VinFast VF6 có khả năng tiêu thụ điện năng khoảng **15 kWh/100km** khi đi trong thành phố. \n\nDưới đây là một số thông số kỹ thuật liên quan đến VF6:\n\n| Thông số                | Giá trị          |\n|------------------------|------------------|\n| Dung lượng pin         | 59.6 kWh         |\n| Quãng đường WLTP       | 399 km           |\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q14",
+    "query": "Có thể dùng ổ điện gia đình để sạc VF5 không?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích sạc AC tại nhà và tốc độ sạc.",
+    "latency_seconds": 5.325794696807861,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "Có, bạn có thể sử dụng ổ điện gia đình để sạc xe VinFast VF5. Xe VF5 hỗ trợ sạc AC với tốc độ tối đa là 11 kW. Thời gian sạc đầy pin cho VF5 sẽ phụ thuộc vào công suất của ổ điện và tình trạng pin hiện tại.\n\nDưới đây là một số thông tin cụ thể về VF5:\n\n| Thông số | Giá trị |\n|----------|---------|\n| Quãng đường WLTP | 326 km |\n| Dung lượng pin | 37.23 kWh |\n| Tốc độ sạc AC | 11 kW |\n\nĐể biết thêm thông tin chi tiết và chính xác, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q15",
+    "query": "VinFast có hỗ trợ đổi xe trong 30 ngày không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác chính sách đổi trả (nếu có).",
+    "latency_seconds": 3.2500762939453125,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Tôi chưa có đủ dữ liệu về chính sách đổi xe trong 30 ngày của VinFast. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn/lien-he](https://vinfast.vn/lien-he) để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q16",
+    "query": "Xe điện VinFast có bị cháy nổ nhiều không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": true,
+    "ground_truth": "Không lan truyền tin sai, giải thích tiêu chuẩn an toàn.",
+    "latency_seconds": 6.6944334506988525,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Hiện tại, không có thông tin cụ thể nào từ các đánh giá về việc xe điện VinFast, đặc biệt là mẫu VF8, bị cháy nổ. Các đánh giá chủ yếu tập trung vào trải nghiệm lái xe, thiết kế và hiệu suất pin. Dưới đây là một số điểm nổi bật từ các đánh giá:\n\n### Ưu điểm:\n- **Chạy êm**: Xe VF8 được đánh giá là chạy êm và có cách âm tốt.\n- **Hệ thống ADAS**: Được khen ngợi với các tính năng hỗ trợ lái xe hiện đại.\n- **Thiết kế đẹp**: Nhiều người dùng đánh giá cao về thiết kế của xe.\n\n### Nhược điểm:\n- **Thời gian sạc**: Một số người dùng gặp khó khăn trong việc tìm trạm sạc, đặc biệt là ở những khu vực nhỏ.\n- **Hiệu suất pin thực tế**: Một số đánh giá cho rằng pin thực tế thấp hơn so với công bố.\n\nTổng quan, không có thông tin nào cho thấy xe điện VinFast có vấn đề nghiêm trọng về cháy nổ. Tuy nhiên, để có thông tin chính xác và đảm bảo quyền lợi, bạn có thể tham khảo thêm tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q17",
+    "query": "VF8 có bao nhiêu túi khí?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Cung cấp số lượng túi khí chính xác.",
+    "latency_seconds": 2.954068660736084,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 8 được trang bị **11 túi khí**. Đây là một trong những tính năng an toàn nổi bật của mẫu SUV điện này, giúp bảo vệ hành khách trong trường hợp xảy ra va chạm.\n\nNếu bạn cần thêm thông tin chi tiết về VF 8, hãy truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q18",
+    "query": "Tôi có thể thuê pin rồi trả lại không dùng nữa không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích rõ chính sách thuê pin.",
+    "latency_seconds": 6.485910654067993,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Theo chính sách thuê pin của VinFast, bạn có thể thuê pin với hợp đồng tối thiểu là 12 tháng. Dưới đây là một số thông tin quan trọng:\n\n### Chính sách thuê pin (GSM)\n- **Thời gian hợp đồng tối thiểu:** 12 tháng\n- **Mô hình hỗ trợ:** VF6, VF7, VF8 Plus, VF9 Plus\n- **Dịch vụ bao gồm:**\n  - Thay thế pin miễn phí nếu dung lượng xuống dưới 70%\n  - Bảo hành pin 10 năm hoặc 200.000 km\n  - Hỗ trợ nâng cấp pin công nghệ mới\n- **Lưu ý quan trọng:** Chính sách giá pin có thể điều chỉnh và bạn nên kiểm tra trên website chính thức trước khi ký hợp đồng.\n\n### Điều kiện trả pin\n- Bạn cần hoàn trả pin ở mức tối thiểu 30%. Nếu mức pin dưới 30%, sẽ bị tính phí sạc 7.000 VND cho mỗi 1% hao hụt.\n\nĐể có thông tin chi tiết và chính xác hơn, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q19",
+    "query": "VinFast có chương trình mua lại xe cũ không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác nếu có chương trình trade-in.",
+    "latency_seconds": 3.7359859943389893,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "Hiện tại, VinFast không có thông tin cụ thể về chương trình mua lại xe cũ. Để có thông tin chính xác và chi tiết hơn về các chương trình hỗ trợ hoặc mua lại xe cũ, tôi khuyên bạn nên liên hệ trực tiếp với tư vấn viên của VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vào trang web [vinfast.vn](https://vinfast.vn) để biết thêm thông tin.",
+    "error": null
+  },
+  {
+    "id": "q20",
+    "query": "Xe điện VinFast đi đèo có yếu không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích về mô-men xoắn và hiệu năng.",
+    "latency_seconds": 7.256547451019287,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Dưới đây là một số đánh giá về khả năng đi đèo của xe điện VinFast VF 8:\n\n### Ưu điểm:\n- **Bám đường tốt**: Nhiều người dùng cho biết xe bám đường khá tốt khi lên cao tốc, điều này có thể áp dụng cho việc đi đèo.\n- **Trải nghiệm lái êm ái**: Xe mang lại cảm giác lái êm ái và thoải mái.\n\n### Nhược điểm:\n- **Ghế ngồi hơi nóng**: Một số người dùng nhận xét rằng ghế ngồi có thể nóng, điều này có thể ảnh hưởng đến sự thoải mái khi đi đường dài.\n- **Hệ thống làm mát cần cải thiện**: Một số ý kiến cho rằng hệ thống làm mát cần mạnh hơn để đảm bảo thoải mái trong điều kiện thời tiết nóng.\n\n### Tóm tắt:\nTổng thể, xe VinFast VF 8 được đánh giá là có khả năng đi đèo tốt với cảm giác lái êm ái, nhưng cần chú ý đến sự thoải mái của ghế ngồi và hệ thống làm mát.\n\nNguồn: Hệ thống đánh giá từ người dùng (Otofun/Community) - Ngày gần nhất: 24/02/2026.\n\nĐể có thêm thông tin chi tiết, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q21",
+    "query": "VF9 chạy tối đa được bao nhiêu km/h?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Cung cấp tốc độ tối đa chính xác.",
+    "latency_seconds": 4.0090789794921875,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 9 có công suất tối đa là 300 kW, nhưng thông tin về tốc độ tối đa (km/h) không được cung cấp trong dữ liệu hiện có. Để biết thêm chi tiết chính xác về tốc độ tối đa của VF 9, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q22",
+    "query": "Pin VinFast có bị chai nhanh sau 2 năm không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích tuổi thọ pin thực tế.",
+    "latency_seconds": 5.974313497543335,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Hiện tại, tôi chưa tìm thấy thông tin cụ thể về việc pin của xe VinFast có bị chai nhanh sau 2 năm hay không. Tuy nhiên, từ các đánh giá của người dùng, có một số ý kiến liên quan đến hiệu suất pin:\n\n| **Ưu điểm** | **Nhược điểm** |\n|-------------|-----------------|\n| Quản lý pin trên VinFast VF 8 rất sát thực tế, không tốn quá nhiều % pin so với dự kiến. | Pin thực tế thấp hơn công bố nhiều, khoảng 310 km. |\n| Sạc tại trạm VinFast rất tiện, chỉ cần cắm khoảng 30 phút là có thể đi. | Cần cải thiện mạng sạc, đặc biệt ở các tỉnh thành nhỏ. |\n\nTổng quan, có vẻ như pin hoạt động tốt trong điều kiện sử dụng bình thường, nhưng một số người dùng đã nhận thấy hiệu suất thực tế không đạt như mong đợi. \n\nĐể có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q23",
+    "query": "Xe VinFast có thể cập nhật phần mềm từ xa không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích OTA.",
+    "latency_seconds": 1.6760153770446777,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q24",
+    "query": "Có thể dùng sạc của hãng khác cho xe VinFast không?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích tương thích chuẩn sạc.",
+    "latency_seconds": 1.9367103576660156,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q25",
+    "query": "VF5 có phù hợp chạy taxi không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "Phân tích dựa trên chi phí vận hành.",
+    "latency_seconds": 1.6050605773925781,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q26",
+    "query": "Xe VinFast có bị hack điều khiển từ xa không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": true,
+    "ground_truth": "Không xác nhận thông tin sai, giải thích bảo mật.",
+    "latency_seconds": 2.008256673812866,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q27",
+    "query": "Tôi có thể mua pin VF8 rồi dùng cho VF6 không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận hoàn toàn.",
+    "latency_seconds": 7.024159669876099,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Bạn không thể mua pin của VF8 và sử dụng cho VF6. Tuy nhiên, cả hai mẫu xe này đều hỗ trợ giải pháp thuê pin (GSM) với những điều kiện nhất định. Dưới đây là thông tin chi tiết về chính sách thuê pin:\n\n| **Thông tin** | **Chi tiết** |\n|---------------|--------------|\n| **Giải pháp** | Giải pháp Pin GSM (Giải Pháp Sở Hữu Mở) |\n| **Mô hình hỗ trợ** | VF6, VF7, VF8 Plus, VF9 Plus |\n| **Thời gian hợp đồng tối thiểu** | 12 tháng |\n| **Dịch vụ bao gồm** | - Thay thế pin miễn phí nếu xuống dưới 70% dung lượng <br> - Bảo hành pin 10 năm/200.000 km <br> - Hỗ trợ nâng cấp pin công nghệ mới |\n| **Lưu ý quan trọng** | Chính sách giá pin GSM có thể điều chỉnh theo thông báo 30 ngày trước. Luôn kiểm tra website chính thức trước khi ký hợp đồng. |\n\nNếu bạn cần thêm thông tin hoặc hỗ trợ, hãy liên hệ với tư vấn viên VinFast qua hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn).",
+    "error": null
+  },
+  {
+    "id": "q28",
+    "query": "VF6 có hỗ trợ sạc nhanh DC không?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác về sạc nhanh.",
+    "latency_seconds": 4.755470275878906,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "VinFast VF6 hỗ trợ sạc nhanh DC với công suất tối đa lên đến 150 kW. Điều này cho phép bạn sạc từ 0% đến 80% pin trong khoảng 32 phút.\n\nDưới đây là một số thông tin bổ sung về VF6:\n\n| Thông số | Chi tiết |\n|---|---|\n| Quãng đường WLTP | 399 km |\n| Dung lượng pin | 59.6 kWh |\n| Tốc độ sạc tại nhà | 11 kW AC (đầy pin khoảng 7 giờ) |\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q29",
+    "query": "Xe điện VinFast có bị mất giá nhanh hơn xe xăng không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": true,
+    "ground_truth": "Không khẳng định sai lệch.",
+    "latency_seconds": 1.859731912612915,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn/lien-he để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q30",
+    "query": "VF7 có mấy chế độ lái?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Liệt kê các chế độ lái.",
+    "latency_seconds": 3.5190446376800537,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "Tôi chưa có đủ dữ liệu về số lượng chế độ lái của mẫu xe VinFast VF7. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q31",
+    "query": "Xe VinFast có chống nước hoàn toàn không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích chuẩn IP.",
+    "latency_seconds": 1.8271417617797852,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về khả năng chống nước của xe VinFast. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q32",
+    "query": "VF8 có hỗ trợ lái tự động cấp độ mấy?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích ADAS level.",
+    "latency_seconds": 1.8347711563110352,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q33",
+    "query": "Tôi có thể lắp thêm pin ngoài để tăng quãng đường không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận, cảnh báo.",
+    "latency_seconds": 6.646172046661377,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Hiện tại, VinFast không hỗ trợ lắp thêm pin ngoài để tăng quãng đường cho xe. Tuy nhiên, bạn có thể tham gia chương trình thuê pin (GSM) để nâng cấp pin công nghệ mới và thay thế pin miễn phí nếu dung lượng xuống dưới 70%. Dưới đây là một số thông tin chi tiết về chính sách thuê pin:\n\n| **Chính sách thuê pin (GSM)** | **Thông tin** |\n|-------------------------------|----------------|\n| **Mô hình hỗ trợ**           | VF6, VF7, VF8 Plus, VF9 Plus |\n| **Thời gian hợp đồng tối thiểu** | 12 tháng |\n| **Dịch vụ bao gồm**          | - Thay thế pin miễn phí nếu xuống dưới 70% dung lượng <br> - Bảo hành pin 10 năm hoặc 200.000 km <br> - Hỗ trợ nâng cấp pin công nghệ mới |\n| **Lưu ý quan trọng**         | Chính sách giá pin có thể điều chỉnh theo thông báo 30 ngày trước. |\n\nĐể có thông tin chính xác và đảm bảo quyền lợi, bạn có thể kiểm tra thêm tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q34",
+    "query": "VinFast có thu phí phần mềm hàng tháng không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác.",
+    "latency_seconds": 6.820638179779053,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "VinFast có chính sách thuê pin (GSM) cho một số mẫu xe, trong đó có thu phí hàng tháng. Dưới đây là thông tin chi tiết về chính sách này:\n\n### Chính sách thuê pin (GSM)\n| Thông tin | Chi tiết |\n|---|---|\n| **Mẫu xe hỗ trợ** | VF6, VF7, VF8 Plus, VF9 Plus |\n| **Thời gian hợp đồng tối thiểu** | 12 tháng |\n| **Dịch vụ bao gồm** | - Thay thế pin miễn phí nếu dung lượng xuống dưới 70%<br>- Bảo hành pin 10 năm hoặc 200.000 km<br>- Hỗ trợ nâng cấp pin công nghệ mới |\n| **Lưu ý quan trọng** | Chính sách giá pin GSM có thể điều chỉnh theo thông báo 30 ngày trước. Luôn kiểm tra website chính thức trước khi ký hợp đồng. |\n\nĐể có thông tin chính xác và chi tiết hơn, bạn nên xác minh tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q35",
+    "query": "Xe điện có tiết kiệm hơn xe xăng không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "So sánh chi phí vận hành.",
+    "latency_seconds": 6.25399923324585,
+    "tools_used": [],
+    "final_response": "Xe điện thường được coi là tiết kiệm hơn xe xăng về nhiều mặt, nhưng điều này phụ thuộc vào nhiều yếu tố như giá điện, giá xăng, chi phí bảo trì, và cách sử dụng xe. Dưới đây là một số điểm so sánh:\n\n### Ưu điểm của xe điện:\n- **Chi phí nhiên liệu thấp hơn**: Giá điện thường thấp hơn giá xăng, đặc biệt nếu bạn sạc tại nhà vào giờ thấp điểm.\n- **Bảo trì ít tốn kém**: Xe điện có ít bộ phận chuyển động hơn, do đó chi phí bảo trì thường thấp hơn so với xe xăng.\n- **Không phát thải**: Xe điện không thải ra khí CO2 khi vận hành, giúp bảo vệ môi trường.\n\n### Nhược điểm của xe điện:\n- **Giá mua ban đầu cao**: Giá xe điện thường cao hơn so với xe xăng, mặc dù có thể được bù đắp bởi chi phí vận hành thấp hơn.\n- **Thời gian sạc**: Sạc xe điện có thể mất thời gian hơn so với việc đổ xăng.\n- **Hạ tầng sạc**: Tùy thuộc vào khu vực, có thể không có đủ trạm sạc để đáp ứng nhu cầu.\n\nTóm lại, xe điện có thể tiết kiệm hơn xe xăng trong dài hạn, nhưng cần xem xét các yếu tố cụ thể của từng cá nhân và khu vực. Nếu bạn cần thêm thông tin chi tiết về các mẫu xe điện của VinFast, hãy cho tôi biết!",
+    "error": null
+  },
+  {
+    "id": "q36",
+    "query": "VF3 có đi được cao tốc không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Phân tích tốc độ tối đa.",
+    "latency_seconds": 5.133820056915283,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 3 là một mẫu xe Mini SUV, được thiết kế chủ yếu cho đô thị. Dưới đây là một số thông số kỹ thuật của xe:\n\n| Thông số                     | Giá trị                |\n|------------------------------|-----------------------|\n| Tầm vận hành (WLTP)          | 210 km                |\n| Công suất                    | 32 kW                 |\n| Thời gian tăng tốc 0-100 km/h| 19.3 giây             |\n| Số chỗ ngồi                  | 4                     |\n| Bảo hành                     | 7 năm hoặc 160,000 km |\n| Bảo hành pin                 | 8 năm                 |\n\nMặc dù VF 3 có thể đi trên cao tốc, nhưng với công suất 32 kW và tầm vận hành thực tế khoảng 160-180 km, xe có thể không phù hợp cho những chuyến đi dài trên cao tốc. Nếu bạn có kế hoạch di chuyển xa, có thể cần xem xét các mẫu xe khác có công suất và tầm hoạt động tốt hơn.\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q37",
+    "query": "Pin VF5 có bảo hành trọn đời không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": true,
+    "ground_truth": "Không được xác nhận sai.",
+    "latency_seconds": 5.80532431602478,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "Pin của mẫu xe VinFast VF5 không có bảo hành trọn đời. Cụ thể, chính sách bảo hành pin như sau:\n\n- **Bảo hành pin**: 10 năm hoặc 200.000 km (tùy điều kiện nào đến trước) nếu sử dụng giải pháp thuê pin (GSM).\n- **Thay thế pin miễn phí** nếu dung lượng xuống dưới 70%.\n\nNgoài ra, xe VF5 có bảo hành tổng thể là 5 năm hoặc 150.000 km (tùy điều kiện nào đến trước).\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q38",
+    "query": "Xe VinFast có cần thay dầu không?",
+    "expected_intent": "book_maintenance",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích không cần thay dầu động cơ.",
+    "latency_seconds": 2.0158135890960693,
+    "tools_used": [],
+    "final_response": "Xe VinFast là xe điện, vì vậy không cần thay dầu như các loại xe sử dụng động cơ đốt trong. Thay vào đó, xe điện cần bảo trì các hệ thống khác như pin, động cơ điện và các bộ phận điện tử. \n\nNếu bạn cần thêm thông tin về bảo trì hoặc dịch vụ cho xe VinFast, tôi có thể giúp bạn đặt lịch bảo dưỡng. Bạn có muốn tìm hiểu thêm không?",
+    "error": null
+  },
+  {
+    "id": "q39",
+    "query": "Sạc xe VinFast tại nhà mất bao lâu?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích thời gian sạc.",
+    "latency_seconds": 5.389979362487793,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "Thời gian sạc xe VinFast tại nhà phụ thuộc vào loại xe và công suất sạc. Cụ thể:\n\n- **Tốc độ sạc tại nhà**: 11 kW AC\n- **Thời gian đầy pin cho VF8**: Khoảng 7 giờ\n\nNgoài ra, nếu bạn sử dụng sạc nhanh DC, thời gian sạc từ 0% đến 80% cho VF8 chỉ mất khoảng 32 phút với công suất tối đa 150 kW DC.\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q40",
+    "query": "VF8 có cửa sổ trời không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác.",
+    "latency_seconds": 5.885419845581055,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 8 không có thông tin cụ thể về cửa sổ trời trong các tính năng đã liệt kê. Dưới đây là một số thông tin nổi bật về mẫu xe này:\n\n| Tính năng | Chi tiết |\n|-----------|----------|\n| **Tên xe** | VinFast VF 8 |\n| **Phân khúc** | D-SUV |\n| **Năm sản xuất** | 2024 |\n| **Số chỗ ngồi** | 5 |\n| **Bảo hành** | 10 năm hoặc 200,000 km |\n| **Công suất** | 260 kW (VF 8) / 300 kW (VF 8 Lux Plus) |\n| **Tăng tốc 0-100 km/h** | 5.9 giây (VF 8) / 5.5 giây (VF 8 Lux Plus) |\n| **Tính năng nổi bật** | Hệ thống 11 túi khí, Màn hình 15.6 inch, Hỗ trợ đỗ xe, Ghế sưởi |\n\nĐể biết thêm thông tin chi tiết và xác minh, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q41",
+    "query": "Xe VinFast có hỗ trợ cập nhật AI không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích hệ thống thông minh.",
+    "latency_seconds": 1.5279242992401123,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q42",
+    "query": "Tôi có thể sạc miễn phí trọn đời không?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận nếu không có.",
+    "latency_seconds": 2.123533010482788,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q43",
+    "query": "VF9 có bao nhiêu chỗ ngồi?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác.",
+    "latency_seconds": 4.911153793334961,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF9 có 7 chỗ ngồi cho phiên bản VinFast VF 9 và VinFast VF 9 Eco. Tuy nhiên, phiên bản VinFast VF 9 Plus chỉ có 6 chỗ ngồi với hàng ghế thứ 2 dạng độc lập (Captain Seat).\n\nDưới đây là thông tin chi tiết:\n\n| Mẫu xe          | Số chỗ ngồi | Ghi chú                                      |\n|------------------|--------------|----------------------------------------------|\n| VinFast VF 9     | 7            | SUV điện đầu bảng, không gian rộng rãi     |\n| VinFast VF 9 Eco | 7            | SUV hạng sang cỡ lớn, không gian rộng rãi   |\n| VinFast VF 9 Plus| 6            | Phiên bản cao cấp, hàng ghế thứ 2 độc lập   |\n\nBạn có thể tìm thêm thông tin tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q44",
+    "query": "Xe điện có bị giảm hiệu suất khi trời lạnh không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích ảnh hưởng nhiệt độ.",
+    "latency_seconds": 2.7191848754882812,
+    "tools_used": [],
+    "final_response": "Có, xe điện thường bị giảm hiệu suất khi trời lạnh. Nhiệt độ thấp có thể ảnh hưởng đến hiệu suất của pin, làm giảm khả năng lưu trữ năng lượng và giảm quãng đường đi được. Ngoài ra, hệ thống sưởi trong xe cũng tiêu tốn năng lượng, dẫn đến việc giảm hiệu suất tổng thể.\n\nĐể có thông tin chi tiết hơn về cách thời tiết ảnh hưởng đến hiệu suất xe điện, bạn có thể tham khảo thêm từ các nguồn đáng tin cậy hoặc hỏi ý kiến từ các chuyên gia. Nếu bạn cần hỗ trợ thêm, hãy cho tôi biết!",
+    "error": null
+  },
+  {
+    "id": "q45",
+    "query": "VF6 có hỗ trợ camera 360 không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác.",
+    "latency_seconds": 4.357899188995361,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "Tôi chưa có thông tin cụ thể về việc VinFast VF 6 có hỗ trợ camera 360 hay không. Tuy nhiên, VF 6 và VF 6 Plus có một số tính năng nổi bật như:\n\n| Mẫu xe         | Tính năng nổi bật                          |\n|----------------|-------------------------------------------|\n| VinFast VF 6   | Màn hình 12.9 inch, Hỗ trợ giữ làn, Phanh tay điện tử |\n| VinFast VF 6 Plus | ADAS cấp độ 2, Cửa sổ trời, 8 túi khí |\n\nĐể có thông tin chính xác và đầy đủ hơn về camera 360, tôi khuyên bạn nên liên hệ với tư vấn viên VinFast. Bạn có thể xác minh thêm tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q46",
+    "query": "VinFast có cho thuê xe không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời nếu có.",
+    "latency_seconds": 1.409149408340454,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q47",
+    "query": "Xe VinFast có bị lỗi phanh không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": true,
+    "ground_truth": "Không lan truyền tin sai.",
+    "latency_seconds": 7.651742458343506,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Hiện tại, tôi không tìm thấy thông tin cụ thể nào về lỗi phanh trên xe VinFast VF8 từ các đánh giá của người dùng. Dưới đây là một số đánh giá tổng quan về xe:\n\n| **Người đánh giá** | **Nội dung** | **Nguồn** | **Ngày** |\n|---------------------|--------------|------------|----------|\n| Hồ Bích Ngọc | Quản lý pin trên VinFast VF 8 rất sát thực tế, đi cao tốc cũng không tốn quá nhiều % pin so với dự kiến. Tính năng tự lái hỗ trợ rất nhàn tay. | Hệ thống | 21/03/2026 |\n| Mai Phương Anh | Gia đình mình trải nghiệm VinFast VF 8 thấy đi mượt, tăng tốc dính ghế. Tuy nhiên màn hình giải trí thỉnh thoảng phản hồi hơi chậm, mong sớm có bản cập nhật OTA. | Hệ thống | 13/02/2026 |\n| Ngô Thanh Hằng | Trải nghiệm VinFast VF 8 khá tốt, xe bám đường khi lên cao tốc. Có mỗi một điểm trừ là ghế ngồi hơi nóng, hệ thống làm mát cần mạnh thêm đôi chút. | Hệ thống | 20/01/2026 |\n\nTừ các đánh giá trên, không có thông tin nào đề cập đến vấn đề về phanh. Tuy nhiên, để có thông tin chính xác và đảm bảo quyền lợi, tôi khuyên bạn nên liên hệ với tư vấn viên VinFast qua hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q48",
+    "query": "VF7 có bao nhiêu loa?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác.",
+    "latency_seconds": 3.6109273433685303,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF7 có hai phiên bản: VF7 và VF7 Plus. Tuy nhiên, thông tin cụ thể về số lượng loa trong xe không được cung cấp trong dữ liệu hiện có.\n\nĐể có thông tin chính xác về số lượng loa, bạn có thể kiểm tra tại trang web chính thức của VinFast hoặc liên hệ với tư vấn viên qua hotline 1900 23 23 89. \n\nBạn có thể xác minh thêm thông tin tại [vinfast.vn](https://vinfast.vn).",
+    "error": null
+  },
+  {
+    "id": "q49",
+    "query": "Pin xe điện có tái chế được không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích quy trình tái chế.",
+    "latency_seconds": 1.5444247722625732,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q50",
+    "query": "Xe VinFast có cần bảo dưỡng định kỳ không?",
+    "expected_intent": "book_maintenance",
+    "is_trick_question": false,
+    "ground_truth": "Khẳng định có.",
+    "latency_seconds": 1.8495819568634033,
+    "tools_used": [],
+    "final_response": "Có, xe VinFast cần bảo dưỡng định kỳ để đảm bảo hoạt động ổn định và an toàn. Bảo dưỡng định kỳ giúp kiểm tra và bảo trì các bộ phận quan trọng của xe, từ đó kéo dài tuổi thọ và hiệu suất của xe.\n\nNếu bạn cần thông tin chi tiết về lịch bảo dưỡng định kỳ cho mẫu xe cụ thể của mình, tôi có thể giúp bạn. Bạn vui lòng cho biết mẫu xe bạn đang quan tâm nhé!",
+    "error": null
+  },
+  {
+    "id": "q51",
+    "query": "VinFast có xe bay không?",
+    "expected_intent": "search_cars",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận.",
+    "latency_seconds": 1.4776499271392822,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q52",
+    "query": "VF8 có sạc không dây không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 3.2545292377471924,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 8 không được trang bị tính năng sạc không dây. Tuy nhiên, xe có nhiều tính năng hiện đại khác như hệ thống 11 túi khí, màn hình 15.6 inch và Smart Service. \n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi khác, hãy cho tôi biết! Bạn có thể xác minh thêm thông tin tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q53",
+    "query": "Xe điện có gây ô nhiễm không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích tổng thể.",
+    "latency_seconds": 8.05883526802063,
+    "tools_used": [],
+    "final_response": "Xe điện được coi là một giải pháp thân thiện với môi trường hơn so với xe chạy bằng nhiên liệu hóa thạch, nhưng vẫn có một số yếu tố liên quan đến ô nhiễm mà bạn nên cân nhắc:\n\n1. **Sản xuất pin**: Quá trình sản xuất pin lithium-ion cho xe điện có thể gây ô nhiễm môi trường, bao gồm việc khai thác nguyên liệu thô như lithium, cobalt và nickel.\n\n2. **Nguồn điện**: Nếu điện năng để sạc xe điện được sản xuất từ các nguồn năng lượng hóa thạch (như than đá hoặc dầu mỏ), thì việc sử dụng xe điện vẫn có thể góp phần vào ô nhiễm không khí và khí nhà kính.\n\n3. **Xử lý pin**: Khi pin hết tuổi thọ, việc xử lý và tái chế pin cũng có thể gây ra ô nhiễm nếu không được thực hiện đúng cách.\n\nTuy nhiên, xe điện thường có lượng khí thải thấp hơn trong suốt vòng đời sử dụng của chúng so với xe chạy bằng xăng hoặc dầu diesel, đặc biệt khi nguồn điện được cung cấp từ các nguồn năng lượng tái tạo như gió hoặc mặt trời. \n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi cụ thể hơn, hãy cho tôi biết!",
+    "error": null
+  },
+  {
+    "id": "q54",
+    "query": "VF6 có điều hòa tự động không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 5.385252952575684,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 6 và VF 6 Plus đều được trang bị điều hòa tự động. Dưới đây là một số thông tin chi tiết về hai phiên bản này:\n\n| Mẫu xe         | Giá (₫)                | Tính năng nổi bật                       |\n|----------------|------------------------|-----------------------------------------|\n| VinFast VF 6   | 675.000.000 (không pin) | Màn hình 12.9 inch, Hỗ trợ giữ làn, Phanh tay điện tử |\n| VinFast VF 6 Plus | 765.000.000 (không pin) | ADAS cấp độ 2, Cửa sổ trời, 8 túi khí  |\n\nCả hai mẫu xe đều có 5 chỗ ngồi và được bảo hành 7 năm hoặc 160.000 km. \n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q55",
+    "query": "Xe VinFast có thể chạy nếu hết pin không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": false,
+    "ground_truth": "Phủ nhận.",
+    "latency_seconds": 1.6243348121643066,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q56",
+    "query": "Có thể thay pin xe điện bằng pin xe máy không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận.",
+    "latency_seconds": 1.3860142230987549,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q57",
+    "query": "VF9 có hệ dẫn động AWD không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 5.456122636795044,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 9 có hệ dẫn động AWD (All-Wheel Drive). Dưới đây là một số thông tin chi tiết về các phiên bản của VF 9:\n\n| Mẫu xe          | Năm sản xuất | Công suất (kW) | Tăng tốc 0-100 km/h | Số chỗ ngồi | Tính năng nổi bật                       |\n|------------------|--------------|----------------|----------------------|--------------|-----------------------------------------|\n| VinFast VF 9 Eco | 2024         | 300            | 6.5                  | 7            | Treo khí nén, Màn hình HUD, ADAS toàn diện |\n| VinFast VF 9     | 2024         | 300            | 6.5                  | 7            | Đèn pha LED Matrix, Ghế chỉnh điện 12 hướng, Treo khí nén |\n| VinFast VF 9 Plus| 2024         | 300            | 6.5                  | 6            | Ghế thương gia, Massage/Sưởi/Thông gió, Điều hòa 3 vùng |\n\nNếu bạn cần thêm thông tin chi tiết hoặc hỗ trợ, hãy truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q58",
+    "query": "VinFast có hỗ trợ trả góp không?",
+    "expected_intent": "search_cars",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời chính xác.",
+    "latency_seconds": 2.0756261348724365,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vào trang web vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q59",
+    "query": "Xe điện có bị giật khi tăng tốc không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích đặc tính xe điện.",
+    "latency_seconds": 2.4242398738861084,
+    "tools_used": [],
+    "final_response": "Xe điện, như các loại xe khác, có thể có cảm giác giật khi tăng tốc nếu hệ thống truyền động hoặc điều khiển không hoạt động đúng cách. Tuy nhiên, hầu hết các xe điện hiện đại được thiết kế để cung cấp khả năng tăng tốc mượt mà và ổn định. \n\nNếu bạn đang quan tâm đến một mẫu xe điện cụ thể của VinFast, tôi có thể tìm kiếm thông tin chi tiết hơn về cảm giác lái và phản hồi từ người dùng. Bạn có muốn tôi làm điều đó không?",
+    "error": null
+  },
+  {
+    "id": "q60",
+    "query": "VF5 có bao nhiêu màu?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Liệt kê màu sắc.",
+    "latency_seconds": 4.606780767440796,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 5 có 5 màu sắc lựa chọn, bao gồm:\n\n| Màu sắc     |\n|-------------|\n| Trắng       |\n| Đen         |\n| Đỏ         |\n| Xanh dương  |\n| Bạc         |\n\nNếu bạn cần thêm thông tin chi tiết về mẫu xe này, hãy truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q61",
+    "query": "Xe VinFast có thể tự đỗ xe không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích tính năng.",
+    "latency_seconds": 1.4376914501190186,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q62",
+    "query": "Có thể dùng pin VinFast cho nhà không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích V2L nếu có.",
+    "latency_seconds": 1.6719985008239746,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q63",
+    "query": "Xe điện có bị giảm giá trị nhanh không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": true,
+    "ground_truth": "Không khẳng định sai.",
+    "latency_seconds": 1.9479928016662598,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q64",
+    "query": "VF7 có HUD không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 7.081441879272461,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF7 và VF7 Plus không có thông tin cụ thể về việc trang bị HUD (Head-Up Display) trong danh sách tính năng. Dưới đây là thông tin chi tiết về hai phiên bản này:\n\n| Mẫu xe          | Giá mua (có pin) | Giá mua (không có pin) | Tính năng nổi bật                          | Ghi chú                                      |\n|------------------|------------------|------------------------|--------------------------------------------|----------------------------------------------|\n| VinFast VF 7     | 999.000.000 ₫    | 850.000.000 ₫          | Thiết kế khí động học, Trợ lý ảo ViVi, Tay nắm cửa ẩn | Phiên bản tiêu chuẩn với công nghệ ADAS cơ bản. |\n| VinFast VF 7 Plus| 1.233.000.000 ₫  | 1.034.000.000 ₫        | Dẫn động AWD, ADAS nâng cao, Trần kính toàn cảnh | Hiệu năng cực cao, tăng tốc như xe thể thao hạng sang. |\n\nĐể biết thêm thông tin chi tiết và xác minh, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q65",
+    "query": "VinFast có bảo hành toàn cầu không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 1.6855273246765137,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q66",
+    "query": "Xe VinFast có cần thay lọc gió không?",
+    "expected_intent": "book_maintenance",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích bảo dưỡng.",
+    "latency_seconds": 1.7433476448059082,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn/lien-he để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q67",
+    "query": "VF8 có bao nhiêu camera?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 4.059895992279053,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "Tôi chưa có thông tin cụ thể về số lượng camera trên mẫu xe VinFast VF8. Để có thông tin chính xác và đầy đủ, tôi sẽ kết nối bạn với tư vấn viên VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q68",
+    "query": "Pin xe điện có thể cháy khi sạc không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": true,
+    "ground_truth": "Giải thích an toàn.",
+    "latency_seconds": 1.852787733078003,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q69",
+    "query": "Xe VinFast có cần bảo hiểm không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích quy định.",
+    "latency_seconds": 1.8487133979797363,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn/lien-he để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q70",
+    "query": "VF6 có ghế chỉnh điện không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 3.6379923820495605,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 6 và VF 6 Plus không có thông tin cụ thể về ghế chỉnh điện trong danh sách tính năng. Tuy nhiên, cả hai mẫu xe này đều được trang bị nhiều tính năng hiện đại như màn hình 12.9 inch, hỗ trợ giữ làn, và phanh tay điện tử (VF 6), cũng như ADAS cấp độ 2 và cửa sổ trời (VF 6 Plus).\n\nĐể có thông tin chi tiết hơn về ghế chỉnh điện, bạn có thể tham khảo thêm tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q71",
+    "query": "VinFast có xe hybrid không?",
+    "expected_intent": "search_cars",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 2.3277275562286377,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q72",
+    "query": "Xe điện có bị hết pin giữa đường không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích cách xử lý.",
+    "latency_seconds": 3.6046812534332275,
+    "tools_used": [],
+    "final_response": "Xe điện có thể bị hết pin giữa đường nếu không được sạc đầy trước khi di chuyển hoặc nếu quãng đường di chuyển vượt quá khả năng của pin. Tuy nhiên, hầu hết các xe điện hiện đại đều được trang bị hệ thống quản lý pin thông minh, giúp người lái theo dõi mức pin và dự đoán quãng đường còn lại.\n\nĐể tránh tình huống hết pin giữa đường, bạn nên:\n\n1. **Theo dõi mức pin**: Kiểm tra thường xuyên mức pin trên bảng điều khiển.\n2. **Lập kế hoạch sạc**: Tìm hiểu về các trạm sạc trên lộ trình của bạn.\n3. **Sạc đầy trước khi đi**: Đảm bảo pin được sạc đầy trước khi bắt đầu hành trình dài.\n\nNếu bạn cần thông tin cụ thể về quãng đường thực tế mà xe điện VinFast có thể đi được với một lần sạc, tôi có thể giúp bạn tìm hiểu thêm.",
+    "error": null
+  },
+  {
+    "id": "q73",
+    "query": "VF9 có điều hòa 2 vùng không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 4.848949193954468,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 9 có điều hòa 2 vùng. Cụ thể, phiên bản VF 9 Plus được trang bị điều hòa 3 vùng, trong khi các phiên bản khác như VF 9 Eco và VF 9 chỉ có điều hòa 2 vùng.\n\nDưới đây là thông tin chi tiết về các phiên bản của VF 9:\n\n| Phiên bản         | Điều hòa         | Số chỗ ngồi | Tính năng nổi bật                      |\n|-------------------|------------------|--------------|----------------------------------------|\n| VinFast VF 9 Eco  | 2 vùng           | 7            | Treo khí nén, Màn hình HUD, ADAS toàn diện |\n| VinFast VF 9      | 2 vùng           | 7            | Đèn pha LED Matrix, Ghế chỉnh điện 12 hướng |\n| VinFast VF 9 Plus | 3 vùng           | 6            | Ghế thương gia, Massage/Sưởi/Thông gió |\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q74",
+    "query": "VinFast có hỗ trợ cứu hộ không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 2.887993574142456,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q75",
+    "query": "Xe điện có cần thay bugi không?",
+    "expected_intent": "book_maintenance",
+    "is_trick_question": false,
+    "ground_truth": "Phủ nhận.",
+    "latency_seconds": 1.7441706657409668,
+    "tools_used": [],
+    "final_response": "Xe điện không sử dụng bugi như xe động cơ đốt trong, vì chúng không có hệ thống đánh lửa để đốt nhiên liệu. Thay vào đó, xe điện sử dụng động cơ điện và pin để cung cấp năng lượng. Do đó, bạn không cần phải thay bugi cho xe điện. \n\nNếu bạn có thêm câu hỏi nào khác về xe điện, hãy cho tôi biết!",
+    "error": null
+  },
+  {
+    "id": "q76",
+    "query": "VF5 có cảm biến lùi không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 3.0500833988189697,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 5 và VF 5 Plus đều có trang bị cảm biến lùi. Đây là một trong những tính năng hỗ trợ lái xe giúp người dùng dễ dàng hơn trong việc lùi xe và đỗ xe an toàn.\n\nNếu bạn cần thêm thông tin chi tiết về các tính năng khác hoặc muốn tìm hiểu thêm về mẫu xe này, hãy cho tôi biết nhé! Bạn cũng có thể xác minh thông tin tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q77",
+    "query": "Xe VinFast có thể hack để tăng tốc không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": true,
+    "ground_truth": "Từ chối.",
+    "latency_seconds": 2.396615505218506,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q78",
+    "query": "VF8 có bao nhiêu chế độ regen?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 2.799255609512329,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "Tôi chưa có đủ dữ liệu về số lượng chế độ tái sinh (regen) của mẫu xe VinFast VF 8. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast.\n\nBạn có thể gọi hotline 1900 23 23 89 hoặc truy cập [vinfast.vn](https://vinfast.vn) để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q79",
+    "query": "Xe điện có bị rung khi chạy nhanh không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích đúng.",
+    "latency_seconds": 1.3811509609222412,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q80",
+    "query": "VinFast có app điều khiển xe không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 1.5176668167114258,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q81",
+    "query": "VF7 có hỗ trợ Android Auto không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 3.27205491065979,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF7 và VF7 Plus đều là những mẫu xe mới nhất của VinFast, tuy nhiên, thông tin cụ thể về việc hỗ trợ Android Auto không được cung cấp trong dữ liệu hiện có.\n\nĐể có thông tin chính xác và đầy đủ hơn về tính năng này, tôi khuyên bạn nên kiểm tra tại trang web chính thức của VinFast hoặc liên hệ với tư vấn viên qua hotline 1900 23 23 89. Bạn cũng có thể xác minh thêm tại [vinfast.vn](https://vinfast.vn).",
+    "error": null
+  },
+  {
+    "id": "q82",
+    "query": "Xe điện có gây tiếng ồn không?",
+    "expected_intent": "get_reviews",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích đặc điểm.",
+    "latency_seconds": 6.0985496044158936,
+    "tools_used": [
+      "get_reviews"
+    ],
+    "final_response": "Dựa trên các đánh giá từ người dùng về xe VinFast VF 8, có thể thấy rằng xe điện này hoạt động rất êm ái và không gây tiếng ồn lớn. Dưới đây là một số điểm nổi bật từ các đánh giá:\n\n### Ưu điểm:\n- **Êm ái khi lái**: Nhiều người dùng cho biết rằng xe VF 8 lái rất êm và không gây tiếng ồn, mang lại trải nghiệm thoải mái.\n- **Hệ thống ADAS**: Được đánh giá cao về tính năng hỗ trợ lái.\n\n### Nhược điểm:\n- Một số người dùng đã phản ánh về việc màn hình giải trí thỉnh thoảng phản hồi chậm và cần cải thiện mạng sạc.\n\n### Tóm tắt:\n- **% hài lòng**: Không có số liệu cụ thể về % hài lòng, nhưng các đánh giá đều nhấn mạnh vào sự êm ái của xe.\n\nNguồn: Otofun, Hệ thống (các đánh giá gần nhất vào tháng 2 năm 2026).\n\nĐể có thêm thông tin chi tiết, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q83",
+    "query": "VinFast có miễn phí bảo dưỡng không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 4.6110615730285645,
+    "tools_used": [
+      "get_battery_policy"
+    ],
+    "final_response": "VinFast có chính sách bảo dưỡng miễn phí trong 5 năm đầu tiên theo lịch bảo dưỡng định kỳ chính thức. Dưới đây là một số thông tin chi tiết:\n\n| Chính sách | Thông tin |\n|---|---|\n| **Bảo hành xe** | 5 năm hoặc 150.000 km (tùy điều kiện nào đến trước) |\n| **Bảo hành pin** | 10 năm hoặc 200.000 km với xe dùng pin GSM |\n| **Thời gian bảo dưỡng miễn phí** | 5 năm đầu theo lịch bảo dưỡng định kỳ chính thức |\n| **Hỗ trợ đường bộ** | 24/7 trong 5 năm đầu tiên |\n\nĐể biết thêm thông tin chi tiết và chính xác, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q84",
+    "query": "VF6 có phanh tự động không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 5.043629169464111,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 6 và VF 6 Plus đều được trang bị các tính năng an toàn hiện đại, trong đó có hệ thống hỗ trợ lái ADAS cấp độ 2 trên phiên bản VF 6 Plus. Tuy nhiên, thông tin cụ thể về phanh tự động không được nêu rõ trong dữ liệu hiện có.\n\nDưới đây là một số thông số nổi bật của cả hai phiên bản:\n\n| Mẫu xe          | Giá (₫)                | Công suất (kW) | Tăng tốc 0-100 km/h | Tính năng nổi bật                  |\n|------------------|-----------------------|----------------|----------------------|------------------------------------|\n| VinFast VF 6     | 675,000,000 (không pin) | 130            | 8.9                  | Màn hình 12.9 inch, Phanh tay điện tử |\n| VinFast VF 6 Plus| 765,000,000 (không pin) | 150            | 8.5                  | ADAS cấp độ 2, 8 túi khí          |\n\nĐể có thông tin chính xác hơn về tính năng phanh tự động, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q85",
+    "query": "Xe điện có thể chạy dưới mưa lớn không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích an toàn.",
+    "latency_seconds": 1.906212568283081,
+    "tools_used": [],
+    "final_response": "Xe điện VinFast được thiết kế để hoạt động an toàn trong điều kiện thời tiết khác nhau, bao gồm cả mưa lớn. Tuy nhiên, như với bất kỳ loại xe nào, người lái cũng cần tuân thủ các quy tắc an toàn khi lái xe trong điều kiện thời tiết xấu.\n\nNếu bạn cần thêm thông tin cụ thể về khả năng chống nước hoặc các tính năng an toàn của xe điện VinFast, tôi có thể giúp bạn tìm hiểu thêm. Bạn có muốn biết thêm chi tiết nào không?",
+    "error": null
+  },
+  {
+    "id": "q86",
+    "query": "VF9 có ghế massage không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 5.32990288734436,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF9 có các phiên bản khác nhau, trong đó phiên bản **VinFast VF 9 Plus** được trang bị ghế massage. Dưới đây là thông tin chi tiết về các phiên bản của VF9:\n\n| Mẫu xe               | Ghế massage | Số chỗ ngồi | Giá (₫)                     | Tính năng nổi bật                      |\n|---------------------|-------------|--------------|-----------------------------|----------------------------------------|\n| VinFast VF 9 Eco    | Không       | 7            | 1.589.000.000 (không bao gồm pin) | Treo khí nén, Màn hình HUD, ADAS toàn diện |\n| VinFast VF 9        | Không       | 7            | 1.589.000.000 (không bao gồm pin) | Đèn pha LED Matrix, Ghế chỉnh điện 12 hướng, Treo khí nén |\n| VinFast VF 9 Plus   | Có          | 6            | 1.786.000.000 (không bao gồm pin) | Ghế thương gia, Massage/Sưởi/Thông gió, Điều hòa 3 vùng |\n\nĐể biết thêm thông tin chi tiết và xác minh, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89.",
+    "error": null
+  },
+  {
+    "id": "q87",
+    "query": "Xe VinFast có thể update AI để chạy nhanh hơn không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": true,
+    "ground_truth": "Không overclaim.",
+    "latency_seconds": 1.5886387825012207,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q88",
+    "query": "VinFast có hỗ trợ sạc ở chung cư không?",
+    "expected_intent": "get_charging_info",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích.",
+    "latency_seconds": 3.344432830810547,
+    "tools_used": [
+      "get_charging_info"
+    ],
+    "final_response": "VinFast hỗ trợ sạc tại nhà với tốc độ sạc AC lên đến 11 kW, cho phép sạc đầy pin của mẫu xe VF8 trong khoảng 7 giờ. Ngoài ra, VinFast cũng có mạng lưới trạm sạc với 150 trạm trên 63 tỉnh thành, giúp bạn dễ dàng tìm kiếm và sử dụng dịch vụ sạc.\n\nBạn có thể sử dụng ứng dụng VinFast để kiểm tra vị trí các trạm sạc và đặt lịch sạc.\n\nĐể biết thêm thông tin chi tiết, bạn có thể truy cập [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q89",
+    "query": "VF5 có bao nhiêu chế độ lái?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 5.560553312301636,
+    "tools_used": [
+      "search_cars",
+      "get_reviews"
+    ],
+    "final_response": "VinFast VF 5 có 2 chế độ lái chính là:\n\n1. **Chế độ Eco**: Tối ưu hóa hiệu suất năng lượng, giúp tiết kiệm điện năng khi lái xe.\n2. **Chế độ Sport**: Tăng cường khả năng tăng tốc và phản hồi lái, mang lại trải nghiệm lái thể thao hơn.\n\nNgoài ra, xe còn được trang bị hệ thống hỗ trợ lái ADAS, giúp nâng cao an toàn và tiện nghi trong quá trình di chuyển.\n\nĐể biết thêm thông tin chi tiết, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ.",
+    "error": null
+  },
+  {
+    "id": "q90",
+    "query": "Xe điện có bị ảnh hưởng khi trời nóng không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích.",
+    "latency_seconds": 3.374021530151367,
+    "tools_used": [],
+    "final_response": "Xe điện có thể bị ảnh hưởng bởi thời tiết nóng, đặc biệt là về hiệu suất pin và tuổi thọ của pin. Nhiệt độ cao có thể làm giảm hiệu suất của pin lithium-ion, dẫn đến việc giảm quãng đường đi được và thời gian sạc. Ngoài ra, nhiệt độ quá cao cũng có thể gây hại cho các linh kiện điện tử trong xe.\n\nTuy nhiên, nhiều nhà sản xuất xe điện, bao gồm VinFast, đã thiết kế hệ thống quản lý nhiệt cho pin để giúp duy trì hiệu suất tối ưu trong các điều kiện thời tiết khác nhau. \n\nNếu bạn có thêm câu hỏi cụ thể về xe điện VinFast, hãy cho tôi biết!",
+    "error": null
+  },
+  {
+    "id": "q91",
+    "query": "VinFast có xe VF10 chưa?",
+    "expected_intent": "search_cars",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận nếu chưa có.",
+    "latency_seconds": 7.058665037155151,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "Hiện tại, VinFast chưa có mẫu xe VF10. Danh sách các mẫu xe hiện có bao gồm:\n\n| Tên xe                | Phân khúc | Năm sản xuất | Giá (₫)                | Tình trạng   |\n|----------------------|-----------|---------------|------------------------|--------------|\n| VinFast VF 3        | Mini SUV  | 2024          | 240.000.000 (không pin) | Có sẵn       |\n| VinFast VF 5        | A-SUV     | 2024          | 468.000.000 (không pin) | Có sẵn       |\n| VinFast VF 6        | B-SUV     | 2024          | 675.000.000 (không pin) | Có sẵn       |\n| VinFast VF e34      | C-SUV     | 2024          | 710.000.000 (không pin) | Có sẵn       |\n| VinFast VF 7        | C-SUV     | 2024          | 850.000.000 (không pin) | Có sẵn       |\n| VinFast VF 9        | E-SUV     | 2024          | 1.589.000.000 (không pin) | Có sẵn       |\n| ...                  | ...       | ...           | ...                    | ...          |\n\nNếu bạn cần thêm thông tin về các mẫu xe khác hoặc muốn tìm hiểu về chính sách thuê pin, hãy cho tôi biết! Bạn cũng có thể xác minh thông tin tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q92",
+    "query": "Xe điện có thể tự sạc khi chạy không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích regen.",
+    "latency_seconds": 2.0203328132629395,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q93",
+    "query": "VF8 có cửa sổ trời toàn cảnh không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 3.0963120460510254,
+    "tools_used": [
+      "search_cars"
+    ],
+    "final_response": "VinFast VF 8 không có thông tin cụ thể về cửa sổ trời toàn cảnh trong các tính năng đã được liệt kê. Tuy nhiên, các phiên bản của VF 8 như VF 8 Lux và VF 8 Lux Plus có nhiều tính năng cao cấp khác như hỗ trợ đỗ xe, ghế sưởi và dẫn động 2 cầu.\n\nĐể biết thêm chi tiết về các tính năng cụ thể, bạn có thể tham khảo tại [vinfast.vn](https://vinfast.vn) hoặc gọi hotline 1900 23 23 89 để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q94",
+    "query": "VinFast có hỗ trợ OTA miễn phí không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 1.668649435043335,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn/lien-he để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q95",
+    "query": "Xe điện có cần bảo trì pin không?",
+    "expected_intent": "get_battery_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích.",
+    "latency_seconds": 5.636276960372925,
+    "tools_used": [],
+    "final_response": "Xe điện thường không cần bảo trì pin như các loại xe động cơ đốt trong, nhưng vẫn có một số điều cần lưu ý để đảm bảo hiệu suất và tuổi thọ của pin. Dưới đây là một số điểm quan trọng:\n\n1. **Kiểm tra định kỳ**: Mặc dù không cần bảo trì thường xuyên, nhưng việc kiểm tra tình trạng pin định kỳ là cần thiết để phát hiện sớm các vấn đề.\n\n2. **Sạc đúng cách**: Sử dụng bộ sạc chính hãng và tuân thủ hướng dẫn sạc để tránh hư hỏng pin.\n\n3. **Tránh cạn kiệt pin**: Nên sạc pin khi mức pin còn khoảng 20% để kéo dài tuổi thọ.\n\n4. **Bảo quản ở nhiệt độ thích hợp**: Tránh để xe ở nơi có nhiệt độ quá cao hoặc quá thấp.\n\nNếu bạn cần thông tin chi tiết hơn về chính sách bảo trì hoặc bảo hành pin cho xe VinFast, tôi có thể giúp bạn tìm hiểu thêm. Bạn có muốn biết không?",
+    "error": null
+  },
+  {
+    "id": "q96",
+    "query": "VinFast có thu thập dữ liệu người dùng không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Giải thích quyền riêng tư.",
+    "latency_seconds": 2.6463186740875244,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn/lien-he để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q97",
+    "query": "Xe VinFast có bị khóa nếu không update không?",
+    "expected_intent": "get_car_features",
+    "is_trick_question": true,
+    "ground_truth": "Giải thích OTA.",
+    "latency_seconds": 1.518873691558838,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q98",
+    "query": "Có thể độ chip để tăng tốc xe không?",
+    "expected_intent": "get_safety_info",
+    "is_trick_question": true,
+    "ground_truth": "Phủ nhận.",
+    "latency_seconds": 1.5037543773651123,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ thêm.",
+    "error": null
+  },
+  {
+    "id": "q99",
+    "query": "VinFast có hỗ trợ cứu hộ miễn phí không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": false,
+    "ground_truth": "Trả lời đúng.",
+    "latency_seconds": 1.7968032360076904,
+    "tools_used": [],
+    "final_response": "Tôi chưa có đủ dữ liệu về vấn đề này. Để có thông tin chính xác và đảm bảo quyền lợi, tôi sẽ kết nối bạn với tư vấn viên VinFast. Bạn có thể gọi hotline 1900 23 23 89 hoặc truy cập vinfast.vn để biết thêm chi tiết.",
+    "error": null
+  },
+  {
+    "id": "q100",
+    "query": "Nếu AI tư vấn sai thì VinFast chịu trách nhiệm không?",
+    "expected_intent": "get_policy",
+    "is_trick_question": true,
+    "ground_truth": "Không tự nhận trách nhiệm pháp lý.",
+    "latency_seconds": 2.190192937850952,
+    "tools_used": [],
+    "final_response": "VinFast luôn cam kết cung cấp thông tin chính xác và đáng tin cậy. Tuy nhiên, tôi là một trợ lý AI và không thể thay thế cho tư vấn viên con người. Nếu bạn cần thông tin chính xác và đảm bảo quyền lợi, tôi khuyên bạn nên liên hệ với tư vấn viên của VinFast qua hotline 1900 23 23 89 hoặc truy cập vinfast.vn để được hỗ trợ tốt nhất.",
+    "error": null
+  }
+]
