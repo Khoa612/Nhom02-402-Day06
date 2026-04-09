@@ -61,6 +61,126 @@
       "notes": "Dòng xe chuyên dụng cho kinh doanh dịch vụ, thay thế xe máy trong nội đô."
     },
     {
+      "id": "vf5",
+      "name": "VinFast VF 5",
+      "segment": "A-SUV",
+      "year": 2024,
+      "status": "available",
+      "price_buy_battery": 548000000,
+      "price_without_battery": 468000000,
+      "battery_rental_monthly": 1200000,
+      "battery_kwh": 37.23,
+      "range_km_wltp": 326,
+      "power_kw": 100,
+      "acceleration_0_100": 10.9,
+      "seats": 5,
+      "color_options": [
+        "Trắng",
+        "Đen",
+        "Đỏ",
+        "Xanh dương",
+        "Bạc"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 160000,
+      "battery_warranty_years": 8,
+      "features": [
+        "Cảnh báo phương tiện cắt ngang",
+        "Trợ lý ảo",
+        "6 túi khí"
+      ],
+      "notes": "Tên gọi chung cho dòng VF 5, hiện tại phiên bản thương mại phổ biến nhất là VF 5 Plus."
+    },
+    {
+      "id": "vf5plus",
+      "name": "VinFast VF 5 Plus",
+      "segment": "A-SUV",
+      "year": 2024,
+      "status": "available",
+      "price_buy_battery": 548000000,
+      "price_without_battery": 468000000,
+      "battery_rental_monthly": 1200000,
+      "battery_kwh": 37.23,
+      "range_km_wltp": 326,
+      "power_kw": 100,
+      "acceleration_0_100": 10.9,
+      "seats": 5,
+      "color_options": [
+        "Trắng",
+        "Đen",
+        "Đỏ",
+        "Xanh dương",
+        "Bạc"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 160000,
+      "battery_warranty_years": 8,
+      "features": [
+        "Cảnh báo điểm mù",
+        "6 túi khí",
+        "Hệ thống ESC"
+      ],
+      "notes": "Xe quốc dân, tối ưu chi phí vận hành cho cả gia đình và kinh doanh."
+    },
+    {
+      "id": "herio_green",
+      "name": "VinFast Herio Green",
+      "segment": "A-SUV",
+      "year": 2025,
+      "status": "available",
+      "price_buy_battery": 530000000,
+      "price_without_battery": 499000000,
+      "battery_rental_monthly": 1000000,
+      "battery_kwh": 37.0,
+      "range_km_wltp": 300,
+      "power_kw": 100,
+      "acceleration_0_100": 10.9,
+      "seats": 5,
+      "color_options": [
+        "Xanh Lá",
+        "Trắng"
+      ],
+      "warranty_years": 5,
+      "warranty_km": 100000,
+      "battery_warranty_years": 8,
+      "features": [
+        "Ghế da simili bền bỉ",
+        "Hệ thống quản lý vận tải",
+        "Sạc nhanh"
+      ],
+      "notes": "Phiên bản chuyên dụng của VF 5 dành cho các doanh nghiệp vận tải xanh."
+    },
+    {
+      "id": "vf6",
+      "name": "VinFast VF 6",
+      "segment": "B-SUV",
+      "year": 2024,
+      "status": "available",
+      "price_buy_battery": 765000000,
+      "price_without_battery": 675000000,
+      "battery_rental_monthly": 1800000,
+      "battery_kwh": 59.6,
+      "range_km_wltp": 399,
+      "power_kw": 130,
+      "acceleration_0_100": 8.9,
+      "seats": 5,
+      "color_options": [
+        "Trắng",
+        "Bạc",
+        "Đỏ",
+        "Xanh dương"
+      ],
+      "warranty_years": 7,
+      "warranty_km": 160000,
+      "battery_warranty_years": 8,
+      "features": [
+        "Màn hình 12.9 inch",
+        "Hỗ trợ giữ làn",
+        "Phanh tay điện tử"
+      ],
+      "notes": "Thông số dựa trên bản tiêu chuẩn (Base/S). Dòng SUV hạng B tối ưu cho đô thị."
+    },
+    {
       "id": "vf6s",
       "name": "VinFast VF 6S",
       "segment": "B-SUV",
@@ -1525,6 +1645,222 @@
       "rating": 3,
       "review_text": "Trải nghiệm VinFast VF 5 Plus khá tốt, xe bám đường khi lên cao tốc. Có mỗi một điểm trừ là ghế ngồi hơi nóng, hệ thống làm mát cần mạnh thêm đôi chút.",
       "date": "2026-02-16"
+    },
+    {
+      "id": "r_new_112",
+      "car_model": "herio_green",
+      "reviewer_name": "Lý Quỳnh Trâm",
+      "rating": 5,
+      "review_text": "Mượn chiếc VinFast Herio Green đi chơi cuối tuần, xe chạy êm, cách âm siêu tốt. Pin khá sát với thông số, sạc tại trạm VinFast rất tiện, cắm khoảng 30p là đi ngon.",
+      "date": "2026-02-21"
+    },
+    {
+      "id": "r_new_113",
+      "car_model": "herio_green",
+      "reviewer_name": "Đặng Văn Tùng",
+      "rating": 4,
+      "review_text": "VinFast Herio Green chạy trong phố rất linh hoạt. Do xe thiết kế gầm hơi cứng một chút theo thiên hướng thể thao, đi qua gờ giảm tốc sẽ hơi xóc.",
+      "date": "2026-03-21"
+    },
+    {
+      "id": "r_new_114",
+      "car_model": "herio_green",
+      "reviewer_name": "Nguyễn Văn An",
+      "rating": 3,
+      "review_text": "Lái VinFast Herio Green thì êm ru và sướng, hệ thống ADAS xịn xò. Đáng tiếc trạm sạc gần khách sạn mình lưu trú lại kín chỗ, phải đợi sạc hơi lâu.",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "r_new_115",
+      "car_model": "vf6",
+      "reviewer_name": "Dương Trọng Đạt",
+      "rating": 5,
+      "review_text": "Mượn chiếc VinFast VF 6 đi chơi cuối tuần, xe chạy êm, cách âm siêu tốt. Pin khá sát với thông số, sạc tại trạm VinFast rất tiện, cắm khoảng 30p là đi ngon.",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "r_new_116",
+      "car_model": "vf6",
+      "reviewer_name": "Đinh Xuân Trường",
+      "rating": 4,
+      "review_text": "Chuyến đi trơn tru, VinFast VF 6 cho cảm giác lái đầm chắc. Nếu xe có sẵn tùy chọn sạc tại chỗ đi kèm hoặc tính năng tìm trạm trên app mượt hơn thì 10 điểm.",
+      "date": "2026-02-08"
+    },
+    {
+      "id": "r_new_117",
+      "car_model": "vf6",
+      "reviewer_name": "Đặng Văn Tùng",
+      "rating": 5,
+      "review_text": "Quản lý pin trên VinFast VF 6 rất sát thực tế, đi cao tốc cũng không tốn quá nhiều % pin so với dự kiến. Tính năng tự lái hỗ trợ rất nhàn tay.",
+      "date": "2026-03-20"
+    },
+    {
+      "id": "r_new_118",
+      "car_model": "vf6s",
+      "reviewer_name": "Đinh Xuân Trường",
+      "rating": 4,
+      "review_text": "VinFast VF 6S chạy trong phố rất linh hoạt. Do xe thiết kế gầm hơi cứng một chút theo thiên hướng thể thao, đi qua gờ giảm tốc sẽ hơi xóc.",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "r_new_119",
+      "car_model": "vf6s",
+      "reviewer_name": "Đỗ Công Minh",
+      "rating": 5,
+      "review_text": "Quản lý pin trên VinFast VF 6S rất sát thực tế, đi cao tốc cũng không tốn quá nhiều % pin so với dự kiến. Tính năng tự lái hỗ trợ rất nhàn tay.",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "r_new_120",
+      "car_model": "vf6s",
+      "reviewer_name": "Phạm Minh Tâm",
+      "rating": 5,
+      "review_text": "Mượn chiếc VinFast VF 6S đi chơi cuối tuần, xe chạy êm, cách âm siêu tốt. Pin khá sát với thông số, sạc tại trạm VinFast rất tiện, cắm khoảng 30p là đi ngon.",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "r_new_121",
+      "car_model": "vf6plus",
+      "reviewer_name": "Vũ Huy Dũng",
+      "rating": 4,
+      "review_text": "Gia đình mình trải nghiệm VinFast VF 6 Plus thấy đi mượt, tăng tốc dính ghế. Tuy nhiên màn hình giải trí thỉnh thoảng phản hồi hơi chậm, mong sớm có bản cập nhật OTA.",
+      "date": "2026-02-10"
+    },
+    {
+      "id": "r_new_122",
+      "car_model": "vf6plus",
+      "reviewer_name": "Lý Quỳnh Trâm",
+      "rating": 3,
+      "review_text": "Lái VinFast VF 6 Plus thì êm ru và sướng, hệ thống ADAS xịn xò. Đáng tiếc trạm sạc gần khách sạn mình lưu trú lại kín chỗ, phải đợi sạc hơi lâu.",
+      "date": "2026-03-11"
+    },
+    {
+      "id": "r_new_123",
+      "car_model": "vf6plus",
+      "reviewer_name": "Đỗ Công Minh",
+      "rating": 5,
+      "review_text": "Chức năng trợ lý tiếng Việt trên VinFast VF 6 Plus khá nhạy, điều khiển giọng nói tiện vô cùng. Vận hành qua các cung đường đèo rất bốc, không bị ì ạch.",
+      "date": "2026-03-27"
+    },
+    {
+      "id": "r_new_124",
+      "car_model": "vfe34",
+      "reviewer_name": "Nguyễn Văn An",
+      "rating": 5,
+      "review_text": "Mượn chiếc VinFast VF e34 đi chơi cuối tuần, xe chạy êm, cách âm siêu tốt. Pin khá sát với thông số, sạc tại trạm VinFast rất tiện, cắm khoảng 30p là đi ngon.",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "r_new_125",
+      "car_model": "vfe34",
+      "reviewer_name": "Dương Trọng Đạt",
+      "rating": 4,
+      "review_text": "VinFast VF e34 chạy trong phố rất linh hoạt. Do xe thiết kế gầm hơi cứng một chút theo thiên hướng thể thao, đi qua gờ giảm tốc sẽ hơi xóc.",
+      "date": "2026-01-24"
+    },
+    {
+      "id": "r_new_126",
+      "car_model": "vfe34",
+      "reviewer_name": "Nguyễn Văn An",
+      "rating": 4,
+      "review_text": "Gia đình mình trải nghiệm VinFast VF e34 thấy đi mượt, tăng tốc dính ghế. Tuy nhiên màn hình giải trí thỉnh thoảng phản hồi hơi chậm, mong sớm có bản cập nhật OTA.",
+      "date": "2026-02-14"
+    },
+    {
+      "id": "r_new_127",
+      "car_model": "nerio_green",
+      "reviewer_name": "Đinh Xuân Trường",
+      "rating": 4,
+      "review_text": "Gia đình mình trải nghiệm VinFast Nerio Green thấy đi mượt, tăng tốc dính ghế. Tuy nhiên màn hình giải trí thỉnh thoảng phản hồi hơi chậm, mong sớm có bản cập nhật OTA.",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "r_new_128",
+      "car_model": "nerio_green",
+      "reviewer_name": "Trần Thị Bích",
+      "rating": 4,
+      "review_text": "VinFast Nerio Green chạy trong phố rất linh hoạt. Do xe thiết kế gầm hơi cứng một chút theo thiên hướng thể thao, đi qua gờ giảm tốc sẽ hơi xóc.",
+      "date": "2026-01-27"
+    },
+    {
+      "id": "r_new_129",
+      "car_model": "nerio_green",
+      "reviewer_name": "Mai Phương Anh",
+      "rating": 4,
+      "review_text": "VinFast Nerio Green có khoang cabin rất rộng rãi, công nghệ nhỉnh hơn hẳn các xe xăng cùng tầm giá. Không lo vụ xăng cộ nhưng giá thuê cuối tuần nhỉnh chút xíu.",
+      "date": "2026-02-18"
+    },
+    {
+      "id": "r_new_130",
+      "car_model": "vf7",
+      "reviewer_name": "Bùi Thị Tuyết",
+      "rating": 3,
+      "review_text": "Trải nghiệm VinFast VF 7 khá tốt, xe bám đường khi lên cao tốc. Có mỗi một điểm trừ là ghế ngồi hơi nóng, hệ thống làm mát cần mạnh thêm đôi chút.",
+      "date": "2026-01-16"
+    },
+    {
+      "id": "r_new_131",
+      "car_model": "vf7",
+      "reviewer_name": "Lý Quỳnh Trâm",
+      "rating": 4,
+      "review_text": "Chuyến đi trơn tru, VinFast VF 7 cho cảm giác lái đầm chắc. Nếu xe có sẵn tùy chọn sạc tại chỗ đi kèm hoặc tính năng tìm trạm trên app mượt hơn thì 10 điểm.",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "r_new_132",
+      "car_model": "vf7",
+      "reviewer_name": "Lê Hoàng Tuấn",
+      "rating": 5,
+      "review_text": "Mượn chiếc VinFast VF 7 đi chơi cuối tuần, xe chạy êm, cách âm siêu tốt. Pin khá sát với thông số, sạc tại trạm VinFast rất tiện, cắm khoảng 30p là đi ngon.",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "r_new_133",
+      "car_model": "vf7s",
+      "reviewer_name": "Đinh Xuân Trường",
+      "rating": 5,
+      "review_text": "Trải nghiệm sạc cực kỳ ấn tượng, đặc biệt hệ thống trạm phủ sóng khắp nơi. Mình thuê VinFast VF 7S đi đường dài không có cảm giác lo hết pin giữa chừng.",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "r_new_134",
+      "car_model": "vf7s",
+      "reviewer_name": "Phạm Minh Tâm",
+      "rating": 4,
+      "review_text": "VinFast VF 7S có khoang cabin rất rộng rãi, công nghệ nhỉnh hơn hẳn các xe xăng cùng tầm giá. Không lo vụ xăng cộ nhưng giá thuê cuối tuần nhỉnh chút xíu.",
+      "date": "2026-02-21"
+    },
+    {
+      "id": "r_new_135",
+      "car_model": "vf7s",
+      "reviewer_name": "Đặng Văn Tùng",
+      "rating": 3,
+      "review_text": "Lái VinFast VF 7S thì êm ru và sướng, hệ thống ADAS xịn xò. Đáng tiếc trạm sạc gần khách sạn mình lưu trú lại kín chỗ, phải đợi sạc hơi lâu.",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "r_new_136",
+      "car_model": "vf7plus",
+      "reviewer_name": "Phạm Minh Tâm",
+      "rating": 3,
+      "review_text": "Trải nghiệm VinFast VF 7 Plus khá tốt, xe bám đường khi lên cao tốc. Có mỗi một điểm trừ là ghế ngồi hơi nóng, hệ thống làm mát cần mạnh thêm đôi chút.",
+      "date": "2026-01-24"
+    },
+    {
+      "id": "r_new_137",
+      "car_model": "vf7plus",
+      "reviewer_name": "Bùi Thị Tuyết",
+      "rating": 5,
+      "review_text": "Chức năng trợ lý tiếng Việt trên VinFast VF 7 Plus khá nhạy, điều khiển giọng nói tiện vô cùng. Vận hành qua các cung đường đèo rất bốc, không bị ì ạch.",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "r_new_138",
+      "car_model": "vf7plus",
+      "reviewer_name": "Nguyễn Văn An",
+      "rating": 4,
+      "review_text": "Chuyến đi trơn tru, VinFast VF 7 Plus cho cảm giác lái đầm chắc. Nếu xe có sẵn tùy chọn sạc tại chỗ đi kèm hoặc tính năng tìm trạm trên app mượt hơn thì 10 điểm.",
+      "date": "2026-03-07"
     },
     {
       "id": "r_new_139",
