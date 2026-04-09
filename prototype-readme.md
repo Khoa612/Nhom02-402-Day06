@@ -38,3 +38,6 @@ AI Chatbot hỗ trợ khách hàng mua xe và bảo dưỡng VinFast. User nhậ
 | **Đặng Tùng Anh** | Risk & Eval Lead | `evaluation/`: eval_framework.py, judge.py, test_failure_modes.py, golden_dataset.json (100 câu) |
 | **Nguyễn Đức Hoàng Phúc** | Product Manager / QA | SPEC User Stories, Golden Dataset câu hỏi, Red-teaming |
 | **Phạm Lê Hoàng Nam** | Backend & Frontend | `main.py` (FastAPI + SSE), `llm_fallback.py`, `frontend/` (UI) |
+
+## Link Demo:
+**https://youtu.be/8BEcJ8uUyMk**
